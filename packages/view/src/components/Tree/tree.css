@@ -1,0 +1,39 @@
+.tree {
+  font-family: sans-serif;
+  max-width: 600px;
+  margin: auto;
+}
+
+.tree ul {
+  list-style: none;
+  padding-left: 1.5em;
+}
+
+.tree ul.tree-root {
+  padding-left: 0;
+}
+
+.tree-node__inner {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 3px;
+  font-size: 22px;
+}
+
+.tree-node__inner:hover,
+.tree-node__inner:focus-visible {
+  background-color: lightblue;
+  outline: none;
+  cursor: pointer;
+}
+
+.tree-node__icon {
+  margin-right: 5px;
+}
+
+.tree-node__actions {
+  margin-left: auto;
+  display: flex;
+  gap: 5px;
+}
